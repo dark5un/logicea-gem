@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Logicea::VERSION
   spec.authors       = ["Panagiotis Xinos"]
   spec.email         = ["p.xinos@logicea.com"]
-  spec.description   = %q{Logicea\'s root gem}
-  spec.summary       = %q{This gem contains all shared info for Logicea\'s applications}
+  spec.description   = %q{Logicea supports Euruko 2013 because we believe in Ruby and its growing passionate community which matches our principles and culture.}
+  spec.summary       = %q{We are looking for some passionate world-changing individuals.}
   spec.homepage      = "http://www.logicea.com"
   spec.license       = "MIT"
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.post_install_message = "Hello from logicea! Welcome!"
+  spec.post_install_message = "Our activity is a continuous journey to the galaxy of software technology with the mission to apply your experiences in earthly problems. Join our team and be our fellow traveler."
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
